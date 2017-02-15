@@ -5,7 +5,7 @@
  * Plugin Slug: wordpress-openid-connect
  * Plugin URI: https://
  * Description: This plugin allows user authentication and registration using an openid connect server
- * Version: 1.0
+ * Version: 0.0.1
  * Author: Ilan Cohen
  * Author Email: ilanco@gmail.com
  * Author URI: https://github.com/ilanco
