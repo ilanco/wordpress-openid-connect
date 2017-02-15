@@ -1,0 +1,32 @@
+{
+    "name": "ilanco/wordpress-openid-connect",
+    "license": "MIT",
+    "type": "wordpress-plugin",
+    "description": "Wordpress plugin that allows user authentication and registration using an openid connect server",
+    "keywords": ["authentication", "wordpress", "openid"],
+    "homepage": "https://github.com/ilanco/wordpress-openid-connect",
+    "authors": [
+        {
+            "name": "Ilan Cohen",
+            "email": "ilanco@gmail.com",
+            "homepage": "https://github.com/ilanco"
+        }
+    ],
+    "repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		},
+		{
+            "type": "vcs",
+            "url": "git@github.com:ilanco/OpenID-Connect-PHP"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "jumbojett/openid-connect-php": "^0.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    }
+}
