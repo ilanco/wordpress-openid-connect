@@ -18,20 +18,8 @@
             "url": "https://wpackagist.org"
         },
         {
-            "type": "package",
-            "package": {
-                "name": "jumbojett/openid-connect-php",
-                "version": "0.2.1",
-                "source": {
-                    "url": "git://github.com/ilanco/OpenID-Connect-PHP.git",
-                    "type": "git",
-                    "reference": "0.2.1"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://github.com/ilanco/OpenID-Connect-PHP/archive/0.2.1.zip"
-                }
-            }
+            "type": "vcs",
+            "url": "git@github.com:ilanco/OpenID-Connect-PHP.git"
         }
     ],
     "require": {
