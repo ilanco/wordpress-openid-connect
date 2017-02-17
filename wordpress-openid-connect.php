@@ -82,7 +82,7 @@ class WordpressOpenIDConnect
         /**
          * Custom Login page
          */
-        add_action('login_form', [$this, 'add_button_to_login']);
+        add_action('login_message', [$this, 'login_headertitle']);
 
         /**
          * wp_logout action hook
@@ -248,6 +248,16 @@ class WordpressOpenIDConnect
     public function add_button_to_login()
     {
         $this->load_view('button', null, true);
+    }
+
+    /**
+     *
+     */
+    public function login_headertitle($message)
+    {
+        $content = $this->load_view('button', null, false);
+
+        return $message . $content;
     }
 
     /**
